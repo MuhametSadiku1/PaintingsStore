@@ -4,6 +4,7 @@ import styles from "@/styles/Home.module.scss";
 import Header from "@/components/Header/Header";
 import Hero from "@/components/HeroSection/HeroSection";
 import TestimonialSection from "@/components/TestimonialSection/TestimonialSection";
+import OurProductsSection from "@/components/OurProductsSection/OurProductsSection";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <main className={styles.main}>
         <Hero />
         <TestimonialSection />
+        <OurProductsSection />
         <section><h2>Empty Section</h2></section>
       </main>
     </>
