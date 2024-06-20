@@ -1,0 +1,27 @@
+.testimonialSection {
+    display: flex;
+    gap: 10rem;
+    justify-content: start;
+    align-items: center;
+}
+
+.testimonial {
+    text-align: left;
+    font-size: 1.8rem;
+    line-height: 3.6rem;
+    color: #1A1A1A;
+
+    p {
+        margin-bottom: 2rem;
+
+        span {
+            font-style: italic;
+            font-weight: 600;
+            font-size: 2rem;
+        }
+    }
+}
+
+.testimonial p:last-child {
+    margin-bottom: 0;
+}

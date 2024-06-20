@@ -2,7 +2,8 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "@/styles/Home.module.scss";
 import Header from "@/components/Header/Header";
-import Hero from "@/components/Hero/Hero";
+import Hero from "@/components/HeroSection/HeroSection";
+import TestimonialSection from "@/components/TestimonialSection/TestimonialSection";
 
 export default function Home() {
   return (
@@ -16,7 +17,8 @@ export default function Home() {
       <Header />
       <main className={styles.main}>
         <Hero />
-        <h1>Test content</h1>
+        <TestimonialSection />
+        <section><h2>Empty Section</h2></section>
       </main>
     </>
   );
