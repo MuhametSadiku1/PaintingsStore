@@ -5,6 +5,7 @@ import Header from "@/components/Header/Header";
 import Hero from "@/components/HeroSection/HeroSection";
 import TestimonialSection from "@/components/TestimonialSection/TestimonialSection";
 import OurProductsSection from "@/components/OurProductsSection/OurProductsSection";
+import Brands from "@/components/Brands/Brands";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <Hero />
         <TestimonialSection />
         <OurProductsSection />
+        <Brands />
         <section><h2>Empty Section</h2></section>
       </main>
     </>
