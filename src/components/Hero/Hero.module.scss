@@ -1,0 +1,46 @@
+.heroSection {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 7.8rem);
+    // margin-bottom: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/images/pexels-mitchell-henderson-9741092.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.heroContent {
+    width: 45%;
+    position: absolute;
+    top: 45%;
+
+    h1 {
+        font-size: 3.4rem;
+        line-height: 5.1rem;
+        margin-bottom: 3rem;
+    }
+    
+    p {
+        font-size: 2.2rem;
+        line-height: 3.3rem;
+    }
+}
+
+.textContainer {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 6rem;
+}
+
+.buttonContainer {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 2.4rem;
+}
+
