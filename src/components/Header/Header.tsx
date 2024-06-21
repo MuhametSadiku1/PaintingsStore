@@ -14,7 +14,7 @@ export default function Header () {
             <div className={styles.icons}>
               <a href="#favorites"><img src="images/heart(2).svg" alt="" /></a>
               <a href="#profile"><img src="images/user(2).svg" alt="" /></a>
-              <a href="#cart"><img src="images/shopping-bag(1).svg" alt="" /><span className={styles.notification}>1</span></a>
+              <a href="#cart"><img src="images/shopping-bag(1).svg" alt="" /></a>
         </div>
         </div>
       </div>

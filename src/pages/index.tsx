@@ -9,6 +9,7 @@ import Brands from "@/components/Brands/Brands";
 import CollectionsSection from "@/components/CollectionsSection/CollectionsSection";
 import TeamSection from "@/components/TeamSection/TeamSection";
 import Footer from "@/components/Footer/Footer";
+import Showroom from "@/components/Showroom/Showroom";
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
         <TestimonialSection />
         <OurProductsSection />
         <Brands />
+        <Showroom />
         <CollectionsSection />
         <TeamSection />
         <Footer />
