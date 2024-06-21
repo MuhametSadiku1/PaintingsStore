@@ -12,9 +12,9 @@ export default function Header () {
                 <a href="#">Services</a>
             </nav>
             <div className={styles.icons}>
-              <a href="#favorites">&#x2661;</a>
-              <a href="#profile">&#x1F464;</a>
-              <a href="#cart">&#x1F6D2;<span className={styles.notification}>1</span></a>
+              <a href="#favorites"><img src="images/heart(2).svg" alt="" /></a>
+              <a href="#profile"><img src="images/user(2).svg" alt="" /></a>
+              <a href="#cart"><img src="images/shopping-bag(1).svg" alt="" /><span className={styles.notification}>1</span></a>
         </div>
         </div>
       </div>

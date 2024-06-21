@@ -1,5 +1,7 @@
 .brands {
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     align-items: center;
+    gap: 2.7rem;
+    flex-wrap: wrap;
 }

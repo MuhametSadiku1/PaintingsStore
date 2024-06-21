@@ -1,0 +1,33 @@
+.collectionsSection {
+    width: 100%;
+    background-color: var(--color-blue);
+}
+
+.collectionsSectionContainer {
+    width: 68.5%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 12rem 0;
+    color: var(--color-white);
+
+    img {
+        width: 34%;
+        height: auto;
+    }
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+
+    div {
+        width: 32.5%;
+
+        img {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+        }
+    }
+}
